@@ -138,8 +138,7 @@ header .menu {
     }
 
     #main {
-        margin-left: 0;
-        /* padding-left: 20px; */
+       margin: 20px;
     }
 }
 
@@ -220,12 +219,14 @@ span {
     right: 6px;
 }
 
-/* @media (max-width: 1199px) {
-    #home {
-        height: 40vh;
+@media (max-width: 689px) {
+    .letsconnect form {
+        width: 350px;
+        left: 25px;
+        /* position: relative; */
     }
 
-} */
+}
 
 /*--------------------------------------------------------------
 # About
@@ -316,7 +317,7 @@ span {
 
 #education .box .ebox .line {
     border-left: 3px solid #746CFE;
-    height: 150px;
+    height: 80%;
     margin-top: 1px;
     margin-left: 21px;
 }
@@ -378,11 +379,11 @@ span {
 /* CSS Progress Bars */
 
 #skillContainer {
-    margin: 40px;
+    margin: 30px;
 }
 
 .cssProgress {
-    width: 70%;
+    width: 90%;
     margin-bottom: 20px;
 }
 
@@ -390,7 +391,7 @@ span {
 .cssProgress .progress2 {
     position: relative;
     overflow: hidden;
-    width: 70%;
+    width: 90%;
     font-family: "Roboto", sans-serif;
 }
 
@@ -459,14 +460,21 @@ span {
     width: 100%;
     /* height: 70vh; */
     font-size: 16px;
-    margin-left: 30px;
+    margin: 30px;
 }
 
 #contact h2 {
     padding: 30px;
     font-size: 30px;
 }
-
+.contactDescrip{
+    padding: 10px;
+    margin-right: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width
+     */
+}
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -526,6 +534,25 @@ span {
     height: 50px;
     background-color: #d1cececa;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+@media  (max-width:659px)  {
+  
+#home h1{
+    font-size: 11vw;
+}
+
+}
+/* @media (min-width:449px) and (max-width:659px)  {
+  
+    #home h1{
+        font-size: 62px;
+    }
+    
+    } */

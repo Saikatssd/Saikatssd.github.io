@@ -32,38 +32,48 @@
                 </div>
             </div>
             <nav class="menu">
-                <ul>
-                    <li class="active"><a href="#home"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
-                    <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
-                    <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
-                    <li><a href="#skills"><i class="fa-solid fa-wand-magic-sparkles"></i>Skills</a></li>
-                    <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
-                </ul>
+                <!-- <ul> -->
+                <a href="#home" class="active"><i class="fa-solid fa-house-chimney"></i> Home</a>
+                <a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+                <a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+                <a href="#skills"><i class="fa-solid fa-wand-magic-sparkles"></i>Skills</a>
+                <a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+                <!-- </ul> -->
             </nav>
         </div>
     </header>
-    <!-- <i class="fa-solid fa-wand-magic-sparkles"></i> -->
-    <!-- <i class="fa-solid fa-list-check"></i> -->
+    <!-- <i class="fa-solid fa-wand-magic-sparkles"></i>
+    <i class="fa-solid fa-list-check"></i> -->
 
 
     <!-- ======= Home Section ======= -->
-    <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+    <!-- <section id="home" class="d-flex flex-column justify-content-center align-items-center"> -->
+    <section id="home">
+        <!-- <div class="custom-shape-divider-bottom-1684041051">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg> -->
+
+        <!-- <h2 class="logo">Port<span class="fo-design">fo</span><span>lio</span></h2> -->
+        <button type="button" class="mobile-nav-toggle d-xl-none">
+            <i class=" fa-sharp fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+        </button>
         <div class="home-container">
-            <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button> -->
-            <h2 class="logo">Port<span class="fo-design">fo</span><span>lio</span></h2>
-            <br>
-            <h4>Hi 👋, This is </h4>
+            <!-- <h4>Hi 👋, This is </h4> -->
             <h1>Saikat <span class="fo-design">Sundar</span> <span>Das</span> </h1>
-            <h3>I am a Web Developer.</h3>
-            <div class="letsconnect">
-                <form>
+            <h3>I am a <span class="developer">Web Developer </span></h3>
+            <!-- <div class="letsconnect"> -->
+            <!-- <form>
                     <input type="email" name="email" id="mail" placeholder="Enter Your Email">
                     <input type="submit" name="submit" value="Lets Connect">
-                </form>
-            </div>
+                </form> -->
+            <!-- </div> -->
         </div>
+        <!-- </div> -->
     </section>
-
 
     <!-- ABOUT -->
     <main id="main">
@@ -80,10 +90,10 @@
             </p>
             <div class="qualiContainer">
                 <h3> <span> Name : </span> Saikat Sundar Das </h3>
-                <h3> <span> Age : </span> 20 </h3>
+                <h3> <span> Age : </span> 21 </h3>
                 <h3> <span> Qualification : </span> B.Tech(Pursuing) </h3>
                 <h3> <span> City : </span> Kolkata,West Bengal </h3>
-                <br>
+                <br><br>
                 <a href="./cv.pdf" target="_blank"> <button class="download-btn">Download CV</button></a>
             </div>
         </section>
@@ -96,28 +106,23 @@
             <h2>My <span>Education</span></h2>
             <div class="eduContainer">
 
-                <div class="box">
-                    <div class="ebox">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="line"></div>
-                    </div>
-                    <div class="ebox">
+                <div class="ebox">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="box">
                         <h3 class="courseHeading">Bachelor of Technology </h3> <span class="year">[2021-2025]</span>
                         <h3><i>Government College of Engineering and Cemaric Technology</i> </h3>
                         <p><b>Department:</b> Computer Science and Engineering
                             <br> <b> Courses:</b> Data Structures and Algorithms, Computer Organization, Discrete
                             Mathematics, Calculus
+                            <br>
                             <b> SGPA:</b> 9.49, 9.56
                         </p>
                     </div>
                 </div>
 
-                <div class="box ">
-                    <div class="ebox">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="line"></div>
-                    </div>
-                    <div class="ebox">
+                <div class="ebox ">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="box">
                         <h3 class="courseHeading">Higher Secondary</h3><span class="year">[2019-2021]</span>
                         <h3><i>Nava Nalanda High School</i></h3>
                         <p><b>Board:</b> West Bengal Council of Higher Secondary Education <br>
@@ -127,12 +132,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="box ">
-                    <div class="ebox">
-                        <i class="fas fa-graduation-cap"></i>
-                        <div class="line"></div>
-                    </div>
-                    <div class="ebox">
+                <div class="ebox ">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="box">
                         <h3 class="courseHeading">Secondary</h3>
                         <span class="year">[2018-2019]</span>
                         <h3><i> Nava Nalanda High School</i></h3>
@@ -150,7 +152,10 @@
         <!-- ======= Skills Section ======= -->
         <section id="skills">
             <h2>Skills</h2>
-            I am currently focusing on Web Development.
+            <div class="skills-descrip">
+
+                I am currently focusing on Web Development.
+            </div>
             <div id="skillContainer" class="examples">
                 <div class="cssProgress">
                     HTML
@@ -193,6 +198,8 @@
                     </div>
                 </div>
             </div>
+            <h2>Projects</h2>
+
         </section>
 
         <!-- Contact me -->
@@ -202,7 +209,7 @@
                 <h2>Contact Me</h2>
             </div>
             <hr>
-            <br><br>
+            <!-- <br><br> -->
             <div class="contactDescrip">
                 <p>If you would like to get in touch with me, be it for exploring a technology, a
                     business, or to just
@@ -226,9 +233,49 @@
                 </div>
                 <div class="location contact-box"><b>My Location:</b><br><br>
                     <a href="https://goo.gl/maps/7hRwVz5jorRHbQs4A" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-solid fa-location-dot"></i> 2/48 Sahid Nagar Road,<br> Kolkata-700031, West
-                        Bengal</a>
+                            class="fa-solid fa-location-dot"></i> 2/48 Sahid Nagar, Kolkata-700031, West
+                        Bengal, India</a>
                 </div>
+            </div>
+            <div class="row" data-aos="fade-in">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form contact_form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                data-msg="Please enter at least 4 chars" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group  ">
+                            <label for="name">Your Email</label>
+                            <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                                data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Subject</label>
+                        <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+                            data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Message</label>
+                        <textarea class="form-control" name="message" rows="10" data-rule="required"
+                            data-msg="Please write something for us"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.5647811736976!2d88.37199919341799!3d22.50326427238052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02712f40000001%3A0xbbce74062e2d7570!2sDsc%20Club!5e0!3m2!1sen!2sus!4v1686932455548!5m2!1sen!2sus style="
+                    border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
 
@@ -242,7 +289,29 @@
     <footer class="footer"> Created with 💖 by &nbsp;<a href="#home"><span> Saikat Sundar Das </span></a> &nbsp;
         | No Copyrights &copy; 😄!
     </footer>
+    <script>
 
+        // let header = document.getElementById('header');
+
+        // if (window.innerWidth >= '1200px') {
+        //     header.style.left = '0rem';
+        // }
+
+
+        let oldHeading = document.querySelector(".developer");
+        new_name = " Web Developer"
+        let index = 1;
+
+        const typeWriter = () => {
+            let new_title = new_name.slice(0, index);
+            oldHeading.innerText = new_title;
+            index > new_name.length ? index = 1 : index++;
+            setTimeout(() => typeWriter(), 500)
+
+        }
+
+        typeWriter();
+    </script>
     <script src="mywebscript.js"></script>
 </body>
 

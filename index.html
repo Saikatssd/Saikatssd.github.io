@@ -17,7 +17,7 @@
     <header id="header">
         <div class="navbar">
             <div class="profile">
-                <img src="./profileimg.png" alt="">
+                <img src="./profileimg.jpg" alt="">
                 <h3 class="profilename"> <a href="#home"> Saikat Sundar Das </h3></a>
                 <div class="social_media">
                     <a href="https://twitter.com/sundar_saikat" target="_blank" class="twitter"><i
@@ -154,10 +154,109 @@
             <h2>Skills</h2>
             <div class="skills-descrip">
 
-                I am currently focusing on Web Development.
+                I am currently focusing on MERN Stack Development.
             </div>
-            <div id="skillContainer" class="examples">
-                <div class="cssProgress">
+            <div id="skillContainer">
+                <div class="skill-box-container">
+
+                    <div class="skill-box">
+                        <span class="title">HTML, CSS, Tailwind</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per html">
+                                <span class="tooltip">100%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <span class="title">JavaScript</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">ReactJs</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per react">
+                                <span class="tooltip">85%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">NodeJS</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per nodejs">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">MongoDb,Firestore</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per mongodb">
+                                <span class="tooltip">70%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-box-container">
+
+                    <div class="skill-box">
+                        <span class="title">C/C++</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per c">
+                                <span class="tooltip">85%</span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-box">
+                        <span class="title">Python</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">Java</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per java">
+                                <span class="tooltip">65%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">Git </span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per git">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">MySql, Oracle</span>
+
+                        <div class="skill-bar">
+                            <span class="skill-per oracle">
+                                <span class="tooltip">55%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="cssProgress">
                     HTML
                     <div class="progress2">
                         <div class="cssProgress-bar" data-percent="90" style="width: 90%;">
@@ -196,10 +295,40 @@
                             <span class="cssProgress-label">50%</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <h2>Projects</h2>
-
+            <div class="projects">
+                <div class="project-category">
+                    <button class="project-toggle">Web Projects <span class="arrow">▼</span></button>
+                    <div class="project-content">
+                        <div class="project">
+                            <img src="path-to-your-image.jpg" alt="Project Image">
+                            <h3>Programming Diaries</h3>
+                            <p>Developed a full stack blog application to provide content on technical topics across the internet with admin interface.</p>
+                            <div class="tags">
+                                <span>Django</span>
+                                <span>SQLite</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>Heroku</span>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img src="path-to-your-image.jpg" alt="Project Image">
+                            <h3>Bank Finder</h3>
+                            <p>Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from local storage, marked favorite banks.</p>
+                            <div class="tags">
+                                <span>React.js</span>
+                                <span>Bootstrap</span>
+                                <span>JavaScript</span>
+                                <span>Netlify</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other categories like Software Projects, Android Projects, etc. -->
+            </div>
         </section>
 
         <!-- Contact me -->
@@ -238,40 +367,41 @@
                 </div>
             </div>
             <div class="row" data-aos="fade-in">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form contact_form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                                data-msg="Please enter at least 4 chars" />
-                            <div class="validate"></div>
-                        </div>
-                        <div class="form-group  ">
-                            <label for="name">Your Email</label>
-                            <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                                data-msg="Please enter a valid email" />
-                            <div class="validate"></div>
-                        </div>
-                    </div>
+                <form action="https://formsubmit.co/saikatsundardas@gmail.com" target="_blank" method="POST"
+                enctype="multipart/form-data" role="form" class="contact_form">
+                <div class="form-row">
                     <div class="form-group">
-                        <label for="name">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                            data-msg="Please enter at least 8 chars of subject" />
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                            data-msg="Please enter at least 4 chars" required />
                         <div class="validate"></div>
                     </div>
-                    <div class="form-group">
-                        <label for="name">Message</label>
-                        <textarea class="form-control" name="message" rows="10" data-rule="required"
-                            data-msg="Please write something for us"></textarea>
+                    <div class="form-group  ">
+                        <label for="name">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                            data-msg="Please enter a valid email" required />
                         <div class="validate"></div>
                     </div>
-                    <div class="mb-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-                    <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
+                </div>
+                <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+                        data-msg="Please enter at least 8 chars of subject" required />
+                    <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control" name="message" rows="10" data-rule="required"
+                        data-msg="Please write something for us" required></textarea>
+                    <div class="validate"></div>
+                </div>
+                <!-- <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div> -->
+                <div class="text-center"><button type="submit" class="send-btn">Send Message</button></div>
+            </form>
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.5647811736976!2d88.37199919341799!3d22.50326427238052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02712f40000001%3A0xbbce74062e2d7570!2sDsc%20Club!5e0!3m2!1sen!2sus!4v1686932455548!5m2!1sen!2sus style="
                     border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -311,6 +441,8 @@
         }
 
         typeWriter();
+    </script>
+      <script src="https://smtpjs.com/v3/smtp.js">
     </script>
     <script src="mywebscript.js"></script>
 </body>

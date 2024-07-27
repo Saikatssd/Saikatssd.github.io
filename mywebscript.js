@@ -60,3 +60,35 @@ mobileNav.addEventListener('click', () => {
 
 })
 
+function emailSend() {
+
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "username",
+        Password: "password",
+        To: 'them@website.com',
+        From: "you@isp.com",
+        Subject: "This is the subject",
+        Body: "And this is the body"
+    }).then(
+        message => alert(message)
+    );
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggles = document.querySelectorAll('.project-toggle');
+
+    toggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const content = toggle.nextElementSibling;
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+                toggle.querySelector('.arrow').textContent = '▲';
+            } else {
+                content.style.display = 'none';
+                toggle.querySelector('.arrow').textContent = '▼';
+            }
+        });
+    });
+});
+

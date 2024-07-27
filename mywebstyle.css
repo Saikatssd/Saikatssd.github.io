@@ -438,9 +438,9 @@ span {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-#skills {
+/* #skills {
     height: 80vh;
-}
+} */
 
 #skills h2 {
     padding: 1.5rem;
@@ -685,7 +685,7 @@ span {
     /* height: 50vh; */
     display: flex;
     flex-direction: column;
-    margin: 30px;
+
 }
 
 #project h2 {

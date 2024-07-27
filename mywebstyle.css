@@ -389,7 +389,7 @@ span {
     /* border: 2px solid red; */
     border-left: .2rem solid #746CFE;
     padding-left: 3rem;
-    
+
     /* padding-right: 2rem; */
     /* padding-bottom: 2rem;    */
     /* width: 90%; */
@@ -399,7 +399,7 @@ span {
     background-color: #736cfe2d;
     padding: 1rem;
     width: 90%;
-    margin:1.5rem .1rem .1rem 1rem;
+    margin: 1.5rem .1rem .1rem 1rem;
 }
 
 
@@ -438,9 +438,9 @@ span {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-/* #skills {
+#skills {
     height: 80vh;
-} */
+}
 
 #skills h2 {
     padding: 1.5rem;
@@ -461,34 +461,35 @@ span {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    width:100%
-    
+    width: 100%
 }
-.skill-box-container{
-    width:100%
+
+.skill-box-container {
+    width: 100%
 }
+
 #skillContainer .skill-box {
     width: 95%;
     /* width: 34rem; */
     margin: 25px 0;
-  }
-  
-  .skill-box .title {
+}
+
+.skill-box .title {
     display: block;
     font-size: 14px;
     font-weight: 600;
     color: #333;
-  }
-  
-  .skill-box .skill-bar {
+}
+
+.skill-box .skill-bar {
     height: 8px;
     width: 100%;
     border-radius: 6px;
     margin-top: 6px;
-    background: rgba(0,0,0,0.1);
-  }
-  
-  .skill-bar .skill-per {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar .skill-per {
     position: relative;
     display: block;
     height: 100%;
@@ -497,74 +498,74 @@ span {
     background: #4070f4;
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
-  }
-  
-  .skill-per.html {
-     /*progreso de las diferentes lenguajes*/
+}
+
+.skill-per.html {
+    /*progreso de las diferentes lenguajes*/
     width: 100%;
     animation-delay: 0.1s;
-  }
-  
-  .skill-per .javascript {
-           /*progreso de las diferentes lenguajes*/
+}
+
+.skill-per .javascript {
+    /*progreso de las diferentes lenguajes*/
     width: 90%;
     animation-delay: 0.1s;
-  }
-  
-  .skill-per.react {
-        /*progreso de las diferentes lenguajes*/
+}
+
+.skill-per.react {
+    /*progreso de las diferentes lenguajes*/
     width: 85%;
     animation-delay: 0.2s;
-  }
-  
-  .skill-per.nodejs {
+}
+
+.skill-per.nodejs {
     width: 80%;
     animation-delay: 0.3s;
-  }
-  
-  .skill-per.mongodb {
+}
+
+.skill-per.mongodb {
     width: 70%;
     animation-delay: 0.3s;
-  }
+}
 
-  .skill-per.c {
+.skill-per.c {
     width: 85%;
     animation-delay: 0.3s;
-  }
-  
-  .skill-per.python {
+}
+
+.skill-per.python {
     width: 75%;
     animation-delay: 0.3s;
-  }
-  
-  .skill-per.java {
+}
+
+.skill-per.java {
     width: 65%;
     animation-delay: 0.3s;
-  }
-  
-  .skill-per.git {
+}
+
+.skill-per.git {
     width: 80%;
     animation-delay: 0.3s;
-  }
-  
-  .skill-per.oracle {
+}
+
+.skill-per.oracle {
     width: 55%;
     animation-delay: 0.3s;
-  }
-  
-  
-  @keyframes progress {
+}
+
+
+@keyframes progress {
     0% {
-      width: 0;
-      opacity: 1;
+        width: 0;
+        opacity: 1;
     }
-  
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  .skill-per .tooltip {
+}
+
+.skill-per .tooltip {
     position: absolute;
     right: -14px;
     top: -28px;
@@ -575,9 +576,9 @@ span {
     border-radius: 3px;
     background: #4070f4;
     z-index: 1;
-  }
-  
-  .tooltip::before {
+}
+
+.tooltip::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -587,17 +588,18 @@ span {
     z-index: -1;
     background-color: #4070f4;
     transform: translateX(-50%) rotate(45deg);
-  }
-  @media (max-width: 800px) {
+}
+
+@media (max-width: 800px) {
     #skillContainer {
         /* margin-left: 2rem ; */
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
         /* align-items: center; */
-        
-        
-        
+
+
+
     }
 }
 
@@ -678,22 +680,36 @@ span {
 /*--------------------------------------------------------------
 # Project
 --------------------------------------------------------------*/
+
+#project{
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#project h2 {
+    padding: 1.5rem;
+    font-size: 2.7rem;
+}
+
 .projects {
     width: 80%;
     margin: 0 auto;
 }
 
-.project-category {
+/* .project-category {
     margin: 20px 0;
-}
+} */
 
 .project-toggle {
     width: 100%;
-    background-color: #f0b41c;
+    background-color: #736cfe2d;
     border: none;
-    padding: 15px;
+    padding: 20px;
     text-align: left;
     font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
     position: relative;
 }
@@ -704,13 +720,22 @@ span {
 
 .project-content {
     display: none;
-    background-color: #f0b41c;
+    background-color: #736cfe2d;
     padding: 20px;
     border-top: 1px solid #ccc;
 }
 
 .project {
+    padding: 20px;
     margin-bottom: 20px;
+    /* transform: scale(1.1rem); */
+
+}
+
+.project:hover {
+    background-color: #736cfe2d;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #a5a5a5;
 }
 
 .project img {
@@ -723,7 +748,7 @@ span {
 .project h3 {
     margin: 0;
     font-size: 20px;
-    color: #333;
+    color: #746CFE;
 }
 
 .project p {
@@ -732,7 +757,7 @@ span {
 
 .tags span {
     display: inline-block;
-    background-color: #c21807;
+    background-color: #746CFE;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -965,5 +990,38 @@ span {
         /* font-size: 1.5rem; */
         padding: 1.5rem;
         margin-left: 2rem;
+    }
+}
+
+
+
+
+
+/* Animate on Scroll */
+
+.scrollAnimate {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.scrollAnimate2 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .scrollAnimate {
+        transition: all 1s;
     }
 }

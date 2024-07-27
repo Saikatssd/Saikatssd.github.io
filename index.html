@@ -77,7 +77,7 @@
 
     <!-- ABOUT -->
     <main id="main">
-        <section id="about">
+        <section class="scrollAnimate" id="about">
             <h2>About Me</h2>
             <p> I am Saikat Sundar Das, a second year Computer Science Student pursuing B.Tech in Government College
                 Of
@@ -102,7 +102,7 @@
 
         <!-- EDUCATION -->
 
-        <section id="education">
+        <section class="scrollAnimate2" id="education">
             <h2>My <span>Education</span></h2>
             <div class="eduContainer">
 
@@ -150,7 +150,7 @@
         </section>
 
         <!-- ======= Skills Section ======= -->
-        <section id="skills">
+        <section id="skills" class="scrollAnimate">
             <h2>Skills</h2>
             <div class="skills-descrip">
 
@@ -172,11 +172,11 @@
                     <div class="skill-box">
                         <span class="title">JavaScript</span>
 
-                            <div class="skill-bar">
-                                <span class="skill-per javascript">
-                                    <span class="tooltip">90%</span>
-                                </span>
-                            </div>
+                        <div class="skill-bar">
+                            <span class="skill-per javascript">
+                                <span class="tooltip">90%</span>
+                            </span>
+                        </div>
                     </div>
                     <div class="skill-box">
                         <span class="title">ReactJs</span>
@@ -221,11 +221,11 @@
                     <div class="skill-box">
                         <span class="title">Python</span>
 
-                            <div class="skill-bar">
-                                <span class="skill-per python">
-                                    <span class="tooltip">75%</span>
-                                </span>
-                            </div>
+                        <div class="skill-bar">
+                            <span class="skill-per python">
+                                <span class="tooltip">75%</span>
+                            </span>
+                        </div>
                     </div>
                     <div class="skill-box">
                         <span class="title">Java</span>
@@ -297,42 +297,123 @@
                     </div>
                 </div> -->
             </div>
+        </section>
+        <section id="project">
+
+
             <h2>Projects</h2>
             <div class="projects">
                 <div class="project-category">
-                    <button class="project-toggle">Web Projects <span class="arrow">▼</span></button>
+                    <button class="project-toggle">Web Projects <span class="arrow">^</span></button>
                     <div class="project-content">
                         <div class="project">
-                            <img src="path-to-your-image.jpg" alt="Project Image">
-                            <h3>Programming Diaries</h3>
-                            <p>Developed a full stack blog application to provide content on technical topics across the internet with admin interface.</p>
-                            <div class="tags">
-                                <span>Django</span>
-                                <span>SQLite</span>
-                                <span>Bootstrap</span>
-                                <span>JavaScript</span>
-                                <span>Heroku</span>
-                            </div>
+                            <a href="https://order-it-frontend.vercel.app/">
+                                <img src="orderit.JPG" alt="Project Image">
+                                <h3>OrderIt</h3>
+                                <p>Real world project such as Food Delivery Web app SDLC Based project Building using
+                                    MERN Stack.</p>
+                                <div class="tags">
+                                    <span>ReactJs</span>
+                                    <span>MongoDb</span>
+                                    <span>NodeJs</span>
+                                    <span>ExpressJs</span>
+                                    <span>StripeApi</span>
+                                    <span>smtp</span>
+                                </div>
+                            </a>
                         </div>
                         <div class="project">
-                            <img src="path-to-your-image.jpg" alt="Project Image">
-                            <h3>Bank Finder</h3>
-                            <p>Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from local storage, marked favorite banks.</p>
-                            <div class="tags">
-                                <span>React.js</span>
-                                <span>Bootstrap</span>
-                                <span>JavaScript</span>
-                                <span>Netlify</span>
-                            </div>
+                            <a href="https://github.com/Saikatssd/file_organizer">
+
+                                <img src="https://media.licdn.com/dms/image/sync/D4D27AQG0JjkR2w0qBQ/articleshare-shrink_800/0/1711789054157?e=1722711600&v=beta&t=P0C6nSaeF7zmPWa8EED8GLg7QVx9pjY4WOcJdQglNXk"
+                                    alt="Project Image">
+                                <h3>File Organizer</h3>
+                                <p>A file organizer is a tool or software that helps you manage and arrange your files
+                                    in a
+                                    structured and organized manner. It provides features and functionalities to create
+                                    folders, move files, rename files, and categorize them based on various attributes.
+                                </p>
+                                <div class="tags">
+                                    <span>Nodejs</span>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project">
+                            <a href="https://generatememe4u.netlify.app/">
+
+                                <img src="https://media.licdn.com/dms/image/sync/D4D27AQFcqUwTV7k8XA/articleshare-shrink_800/0/1711789054159?e=1722715200&v=beta&t=fT51bJ1Bd04ObyiEyZsatVc4z8VikQOjBFX7vCR5Rfc"
+                                    alt="Project Image">
+                                <h3>Meme Generator</h3>
+                                <p>This meme generator website is a platform that allows users to create and customize
+                                    memes easily.
+                                </p>
+                                <div class="tags">
+                                    <span>Reactjs</span>
+                                    <span>CSS</span>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project">
+                            <a href="https://saikatssd.github.io/calorie_tracker/">
+
+                                <img src="calorie.png" alt="Project Image">
+                                <h3>Calorie Tracker</h3>
+                                <p>It is a website that helps individuals monitor their daily calorie intake and
+                                    expenditure to achieve their health and fitness goals
+                                </p>
+                                <div class="tags">
+                                    <span>Reactjs</span>
+                                    <span>CSS</span>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project">
+                            <a href="https://saikatssd.github.io/Tic-Tac-Toe/">
+
+                                <img src="https://media.licdn.com/dms/image/sync/D4D27AQH3yB9wZynpcQ/articleshare-shrink_160/0/1711789053817?e=1722715200&v=beta&t=Oum7hEN5ngDUzTr0VHh-ZTn2fwZ00kkRCepZezUkbVw"
+                                    alt="Project Image">
+                                <h3>Tic Tac Toe</h3>
+                                <p>It is a beginner level two player game.
+                                </p>
+                                <div class="tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <!-- <hr> -->
+                <!-- <div class="project-category">
+                    <button class="project-toggle">ML Projects <span class="arrow">^</span></button>
+                    <div class="project-content">
+                        <div class="project">
+                            <a href="https://order-it-frontend.vercel.app/">
+                                <img src="orderit.JPG" alt="Project Image">
+                                <h3>Movie Recomendation System</h3>
+                                <p>It Recommends movie based on a movie.</p>
+                                <div class="tags">
+                                    <span>StreamLit</span>
+                                    <span>Google Collab</span>
+                                    <span>Vectorization</span>
+                                   
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
                 <!-- Repeat similar blocks for other categories like Software Projects, Android Projects, etc. -->
             </div>
         </section>
 
+
         <!-- Contact me -->
-        <section id="contact" class="contact">
+        <section id="contact" class="contact scrollAnimate">
 
             <div class="section-title">
                 <h2>Contact Me</h2>
@@ -368,40 +449,40 @@
             </div>
             <div class="row" data-aos="fade-in">
                 <form action="https://formsubmit.co/saikatsundardas@gmail.com" target="_blank" method="POST"
-                enctype="multipart/form-data" role="form" class="contact_form">
-                <div class="form-row">
+                    enctype="multipart/form-data" role="form" class="contact_form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
+                                data-msg="Please enter at least 4 chars" required />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group  ">
+                            <label for="name">Your Email</label>
+                            <input type="email" class="form-control" name="email" id="email" data-rule="email"
+                                data-msg="Please enter a valid email" required />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
                     <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                            data-msg="Please enter at least 4 chars" required />
+                        <label for="name">Subject</label>
+                        <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
+                            data-msg="Please enter at least 8 chars of subject" required />
                         <div class="validate"></div>
                     </div>
-                    <div class="form-group  ">
-                        <label for="name">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                            data-msg="Please enter a valid email" required />
+                    <div class="form-group">
+                        <label for="name">Message</label>
+                        <textarea class="form-control" name="message" rows="10" data-rule="required"
+                            data-msg="Please write something for us" required></textarea>
                         <div class="validate"></div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="name">Subject</label>
-                    <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                        data-msg="Please enter at least 8 chars of subject" required />
-                    <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                    <label for="name">Message</label>
-                    <textarea class="form-control" name="message" rows="10" data-rule="required"
-                        data-msg="Please write something for us" required></textarea>
-                    <div class="validate"></div>
-                </div>
-                <!-- <div class="mb-3">
+                    <!-- <div class="mb-3">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div> -->
-                <div class="text-center"><button type="submit" class="send-btn">Send Message</button></div>
-            </form>
+                    <div class="text-center"><button type="submit" class="send-btn">Send Message</button></div>
+                </form>
                 <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.5647811736976!2d88.37199919341799!3d22.50326427238052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02712f40000001%3A0xbbce74062e2d7570!2sDsc%20Club!5e0!3m2!1sen!2sus!4v1686932455548!5m2!1sen!2sus style="
                     border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -442,7 +523,7 @@
 
         typeWriter();
     </script>
-      <script src="https://smtpjs.com/v3/smtp.js">
+    <script src="https://smtpjs.com/v3/smtp.js">
     </script>
     <script src="mywebscript.js"></script>
 </body>

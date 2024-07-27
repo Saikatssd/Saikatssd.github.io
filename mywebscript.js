@@ -92,3 +92,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+//Animate on scroll
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        // console.log(entry);
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const scrollElements = document.querySelectorAll('.scrollAnimate');
+scrollElements.forEach((e1) => observer.observe(e1));
+
+const scroll2Elements = document.querySelectorAll('.scrollAnimate2');
+scroll2Elements.forEach((e1) => observer.observe(e1));
